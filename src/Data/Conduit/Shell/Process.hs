@@ -19,10 +19,14 @@ module Data.Conduit.Shell.Process
   ,Data.Conduit.Shell.Process.shell
   ,Data.Conduit.Shell.Process.proc
   ,($|)
-  ,Segment
+  ,Segment(..)
   ,ProcessException(..)
   ,ToChunk(..)
   ,tryS
+  --
+  ,sinkHandles
+  ,conduitToProcess
+  ,Handles(..)
   )
   where
 
